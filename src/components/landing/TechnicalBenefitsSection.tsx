@@ -25,14 +25,14 @@ const TechnicalBenefitsSection = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
               <img
                 src={technicalImage}
-                alt="Produtos PVC Perin - diferenciais técnicos"
+                alt="Produtos PVC Perin Plásticos - diferenciais técnicos"
                 className="w-full h-[400px] lg:h-[500px] object-cover"
               />
             </div>
             {/* Floating stat card */}
-            <div className="absolute -bottom-6 -right-6 bg-primary text-primary-foreground rounded-xl p-6 shadow-xl hidden md:block">
-              <p className="text-4xl font-extrabold">25+</p>
-              <p className="text-sm text-primary-foreground/80">Anos de Qualidade</p>
+            <div className="absolute -bottom-6 -right-6 bg-accent text-accent-foreground rounded-xl p-6 shadow-xl hidden md:block">
+              <p className="text-4xl font-extrabold">26+</p>
+              <p className="text-sm text-accent-foreground/80">Anos de Qualidade</p>
             </div>
           </div>
 

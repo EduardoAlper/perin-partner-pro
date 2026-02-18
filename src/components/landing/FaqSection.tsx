@@ -11,10 +11,6 @@ const faqs = [
     answer: "Não há investimento inicial ou taxa de representação. Trabalhamos com modelo de comissionamento sobre vendas.",
   },
   {
-    question: "Como funciona o território exclusivo?",
-    answer: "Garantimos exclusividade por cidade ou região, dependendo do porte do mercado. Não trabalhamos com sobreposição de representantes.",
-  },
-  {
     question: "Qual o prazo médio de entrega?",
     answer: "Temos estoque permanente e logística estruturada. Prazo médio de 5-10 dias úteis para todo Brasil, dependendo da região.",
   },

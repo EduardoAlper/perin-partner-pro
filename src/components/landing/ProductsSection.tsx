@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button";
 import forroImage from "@/assets/produto-forro.jpg";
 import ripadoImage from "@/assets/produto-ripado.jpg";
+import ripadoPretoImage from "@/assets/produto-ripado-preto.jpg";
 import divisoriaImage from "@/assets/produto-divisoria.jpg";
-import acabamentoImage from "@/assets/produto-acabamento.jpg";
 
 const products = [
   {
@@ -27,9 +27,9 @@ const products = [
     badgeType: "popular",
   },
   {
-    title: "Acabamentos",
-    description: "Complementos para instalação profissional | Linha completa de acessórios",
-    image: acabamentoImage,
+    title: "Ripado Preto",
+    description: "Design sofisticado e moderno | Alta durabilidade | Versatilidade em projetos",
+    image: ripadoPretoImage,
     badge: null,
     badgeType: null,
   },

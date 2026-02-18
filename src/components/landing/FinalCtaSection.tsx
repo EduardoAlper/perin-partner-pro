@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { MessageCircle, Phone, Mail } from "lucide-react";
 
 const FinalCtaSection = () => {
-  const whatsappLink = "https://wa.me/5541984078829?text=Olá,%20gostaria%20de%20informações%20sobre%20representação%20Perin";
+  const whatsappLink = "https://wa.me/5541984078829?text=Olá,%20gostaria%20de%20informações%20sobre%20representação%20Perin%20Plásticos";
 
   return (
     <section className="py-20 lg:py-28 bg-gradient-hero relative overflow-hidden">
@@ -42,7 +42,7 @@ const FinalCtaSection = () => {
             <Phone className="w-5 h-5" />
             <span>(41) 3282-8000</span>
           </a>
-          <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-accent transition-colors">
+          <a href="https://wa.me/5541984078829" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-accent transition-colors">
             <MessageCircle className="w-5 h-5" />
             <span>(41) 98407-8829</span>
           </a>

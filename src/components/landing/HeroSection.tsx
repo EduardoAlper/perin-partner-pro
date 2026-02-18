@@ -1,9 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Award, Factory, Truck } from "lucide-react";
 import heroImage from "@/assets/hero-perin.jpg";
+import logo from "@/assets/logo-perin.png";
 
 const HeroSection = () => {
-  const whatsappLink = "https://wa.me/5541984078829?text=Olá,%20gostaria%20de%20informações%20sobre%20representação%20Perin";
+  const whatsappLink = "https://wa.me/5541984078829?text=Olá,%20gostaria%20de%20informações%20sobre%20representação%20Perin%20Plásticos";
 
   return (
     <section className="relative min-h-[90vh] bg-gradient-hero overflow-hidden">
@@ -15,19 +16,24 @@ const HeroSection = () => {
       </div>
 
       <div className="container relative z-10 mx-auto px-4 py-20 lg:py-28">
+        {/* Logo */}
+        <div className="mb-8 animate-fade-up">
+          <img src={logo} alt="Perin Plásticos" className="h-16 md:h-20" />
+        </div>
+
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="text-primary-foreground space-y-8">
             {/* Badge */}
             <div className="inline-flex items-center gap-2 bg-primary-foreground/10 backdrop-blur-sm border border-primary-foreground/20 rounded-full px-4 py-2 animate-fade-up">
               <Award className="w-4 h-4 text-accent" />
-              <span className="text-sm font-medium">25+ anos de mercado | Fábrica própria em São José dos Pinhais/PR</span>
+              <span className="text-sm font-medium">26+ anos de mercado | Fábrica própria em São José dos Pinhais/PR</span>
             </div>
 
             {/* Headline */}
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight animate-fade-up delay-100">
-              Seja Representante Perin:
-              <span className="block text-accent mt-2">Território Exclusivo + Produtos Premium em PVC</span>
+              Seja Representante Perin Plásticos:
+              <span className="block text-accent mt-2">Produtos Premium em PVC</span>
             </h1>
 
             {/* Subheadline */}
@@ -47,7 +53,7 @@ const HeroSection = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Award className="w-5 h-5 text-accent" />
-                <span>Território Exclusivo</span>
+                <span>26+ Anos de Mercado</span>
               </div>
             </div>
 
@@ -79,7 +85,7 @@ const HeroSection = () => {
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-sm text-muted-foreground">Vagas disponíveis</p>
-                    <p className="text-lg font-bold text-primary">Território Exclusivo por Região</p>
+                    <p className="text-lg font-bold text-primary">Representação por Região</p>
                   </div>
                   <div className="bg-emerald text-emerald-foreground px-3 py-1 rounded-full text-sm font-semibold">
                     Abertas

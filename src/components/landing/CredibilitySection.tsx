@@ -1,5 +1,5 @@
 const stats = [
-  { number: "25+", label: "Anos de Mercado" },
+  { number: "26+", label: "Anos de Mercado" },
   { number: "Todo Brasil", label: "Cobertura Nacional" },
   { number: "3 Linhas", label: "De Produtos Premium" },
   { number: "100+", label: "Parceiros Ativos" },
@@ -17,7 +17,7 @@ const CredibilitySection = () => {
               className="text-center"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <p className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-primary mb-2">
+              <p className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-accent mb-2">
                 {stat.number}
               </p>
               <p className="text-muted-foreground font-medium">
@@ -33,12 +33,13 @@ const CredibilitySection = () => {
             Desde 1999
           </span>
           <h2 className="text-3xl md:text-4xl font-extrabold text-foreground mb-6">
-            Atendendo o Mercado Nacional
+            Desde 1999, atendendo todo o mercado nacional
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-            A Perin Plásticos é referência nacional em produtos PVC para construção civil. 
-            Com fábrica própria em São José dos Pinhais/PR e logística estruturada, 
-            atendemos distribuidores, construtoras e lojistas em todo território nacional.
+            A Perin Plásticos é referência nacional em soluções em PVC para a construção civil. 
+            Com fábrica própria em São José dos Pinhais (PR) e logística estruturada, 
+            atendemos distribuidores, construtoras e lojistas em todo o Brasil, 
+            garantindo qualidade, escala e agilidade nas entregas.
           </p>
 
           {/* Trust Badges */}
