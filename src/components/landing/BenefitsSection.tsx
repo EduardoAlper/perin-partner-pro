@@ -1,10 +1,10 @@
-import { MapPin, Package, Calendar, Truck, FileText, TrendingUp } from "lucide-react";
+import { Package, Calendar, Truck, FileText, TrendingUp, ShieldCheck } from "lucide-react";
 
 const benefits = [
   {
-    icon: MapPin,
-    title: "Território Exclusivo",
-    description: "Atue com exclusividade na sua região sem concorrência interna",
+    icon: ShieldCheck,
+    title: "Confiança e Credibilidade",
+    description: "Mais de 26 anos de mercado com fábrica própria e parque industrial moderno",
   },
   {
     icon: Package,
@@ -40,13 +40,13 @@ const BenefitsSection = () => {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block text-accent font-semibold text-sm uppercase tracking-wider mb-4">
-            Por que representar a Perin?
+            Por que representar a Perin Plásticos?
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-foreground mb-6">
             Vantagens Exclusivas para Nossos Parceiros Comerciais
           </h2>
           <p className="text-lg text-muted-foreground">
-            Junte-se a uma rede de parceiros que cresce junto com a Perin há mais de 25 anos
+            Junte-se a uma rede de parceiros que cresce junto com a Perin Plásticos há mais de 26 anos
           </p>
         </div>
 
